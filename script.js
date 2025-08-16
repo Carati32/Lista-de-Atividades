@@ -121,24 +121,39 @@ if (frutas.includes(frutaProcurada)) {
   }
 //9) For e While
 //Use o laço de repetição for para contar de 1 a 10.
-
+let numero = 0
+while(numero < 10){
+  numero += 1
+  console.log(numero)
+}
 
 
 //10)forEach
 //Crie um array de nomes e exiba cada nome no console com uma frase: "Olá,[nome]!".
-
-
+let nomes = ["Yuri", "Jully", "Alex", "Carati"]
+nomes.forEach(function (nome) {
+    console.log(`Olá,${nome}`)
+});
 //11) map
 //Crie um array de números e use map para criar um novo array com cada número ao quadrado
-
-
+let numerosArray = [1,2,3,4,5]
+let numerosAoQuadrado = numerosArray.map(numero => numero * numero)
+console.log(numerosAoQuadrado)
 //12) filter
 //Crie um array de idades e filtre apenas as maiores ou iguais a 18.
-
-
+let idades = [5, 18, 1, 42, 9, 20]
+let maioresQueDez = idades.filter(numero => numero >= 18)
+console.log(maioresQueDez)
 //13) Função tradicional e arrow function
 // Crie uma função tradicional que receba dois números e retorne a soma, e depois faça o mesmo com arrow function.
+function tradicional(){
+  let numberone = Number(prompt("Digite o primeiro número"))
+  let numbertwo = Number(prompt("Digite o segundo número"))
+  let soma = numberone + numbertwo
+  console.log("Function tradicional" +"\n" +"A soma dos números é " + soma)
+}
 
+console.log()
 //14)Função callback
 //Crie uma função que receba outra função como parâmetro e a execute (ex.: função que recebe um nome e imprime no console)
 
