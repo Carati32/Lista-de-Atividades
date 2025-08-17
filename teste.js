@@ -1,0 +1,1 @@
+console.log("Frango é bom demais")
