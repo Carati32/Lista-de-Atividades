@@ -54,7 +54,7 @@ function atividade4(){
 //Crie um programa que receba um número de 1 a 7 e retorne o dia da semana correspondente.
 
 function atividade5(){
-    let dia =   Number(prompt("Digite um dia da semana, de 0 a 7"))
+    let dia =   Number(prompt("Digite um dia da semana, de 1 a 7"))
     switch (dia) {
         case 1:
           alert("Domingo");
