@@ -3,6 +3,7 @@
 //uma lista de 3 cores favoritas e um objeto com nome e idade.
 let nome = "Bruno"
 let idade = 17
+let gostoDeProgramar = true;
 let altura = 1.63
 let cores = ["Preto", "Roxo", "Turquesa"]
 
